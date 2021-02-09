@@ -114,6 +114,10 @@ input[type=submit]{
     color: #fff;
     margin-right: 0;
     margin-top: 20px;
+    cursor: pointer;
+}
+.form__btn{
+    cursor: pointer;
 }
 .popup__content{
     background-color: #fff;
@@ -234,9 +238,7 @@ input[type=submit]{
     padding: 15px 44px;
     border: none;
 }
-.preferenses{
-    padding-top: 100px;
-}
+
 
 .preferenses__title{
     text-align: center;
@@ -390,6 +392,9 @@ input[type=submit]{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.direction__item-image img{
+    max-width: 100%;
 }
 .direction__item-content{
     max-width: 480px;
