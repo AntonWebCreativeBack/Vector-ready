@@ -1,0 +1,42 @@
+<div class="about__comment">
+                        <p class="about__comment-text">Киви переправил деньги не на кошелек а на номер мтс будьте
+                            внимательны.даже в этом случаи делают возврат и переводят на приват.особая благодарность
+                            оператору Марии.
+                        </p>
+                        <p class="about__comment-name">
+                            Jacob Robertson
+                        </p>
+                        <p class="about__comment-date">02.09.2020 11:36</p>
+                    </div>
+                    <div class="about__comment">
+                        <p class="about__comment-text">
+                            3-й раз выполняю обмен. все как всегда на отлично! транзакции выполняются в течение 15-20
+                            мин. что очень быстро + лучший ценник!
+                        </p>
+                        <p class="about__comment-name">
+                            Morris Robertson
+                        </p>
+                        <p class="about__comment-date">02.09.2020 11:36</p>
+                    </div>
+                    <div class="about__comment">
+                        <p class="about__comment-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsam rem, alias
+                            eligendi atque minima voluptatum quam culpa velit sed aperiam asperiores vero eveniet
+                            maiores nostrum! Velit cupiditate iure similique?
+                        </p>
+                        <p class="about__comment-name">
+                            Albert Einstein
+                        </p>
+                        <p class="about__comment-date">02.09.2020 11:36</p>
+                    </div>
+                    <div class="about__comment">
+                        <p class="about__comment-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, alias consequatur omnis
+                            culpa esse delectus quia non ipsa dolores sit explicabo facilis ea nihil, ipsum iste eos
+                            similique? Recusandae, vitae!
+                        </p>
+                        <p class="about__comment-name">
+                            Vladimir Zelensky
+                        </p>
+                        <p class="about__comment-date">02.09.2020 11:36</p>
+                    </div>
