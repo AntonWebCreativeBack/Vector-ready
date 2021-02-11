@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -24,6 +25,9 @@
                     <img class="logo__img" src="images/logo.png" alt="logo">
                 </a>
                 <nav id="menu" class="menu">
+                    <div class="menu__btn">
+                        <span></span>
+                    </div>
                     <ul class="menu__list">
                         <li class="menu__list-item">
                             <a class="menu__list-link" href="#kassi">Кассы</a>
@@ -38,7 +42,7 @@
                             <a class="menu__list-link" href="#ecp">Создание ЭЦП</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">О нас</a>
+                            <a class="menu__list-link" href="#footer">О нас</a>
                         </li>
                     </ul>
                 </nav>
@@ -50,66 +54,66 @@
             </div>
         </div>
     </header>
-    <section class="top">
+     <section class="top">
         <div class="container">
             <div class="top__slider">
                 <div class="top__slide">
                     <div class="top__inner">
-                        <h1 class="top__title title">
+                        <h2 class="top__title title">
                             Регистрация ИП
-                        </h1>
+                        </h2>
                         <p class="top__text">
                             Хотите зарегистрировать юридическое лицо или стать индивидуальным предпринимателем?
                             Мы поможем, упростим процедуру регистрации, совершенно бесплатно!
                         </p>
-                        <button class="top__btn">
+                        <a href="#popup1" class="top__link">
                             Подробнее
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div class="top__slide">
                     <div class="top__inner2">
-                        <h1 class="top__title title">
+                        <h2 class="top__title title">
                             Онлайн кассы
-                        </h1>
+                        </h2>
                         <p class="top__text">
                             Готовые к работе по 54 - ФЗ
                         </p>
-                        <button class="top__btn">
+                        <a href="#popup1" class="top__link">
                             Подробнее
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div class="top__slide">
                     <div class="top__inner3">
-                        <h1 class="top__title title">
-                            Расчетно кассовое обслуживание
-                        </h1>
+                        <h2 class="top__title title">
+                            Кассовое обслуживание
+                        </h2>
                         <p class="top__text">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo veniam incidunt maiores,
                             sapiente molestiae provident, omnis quibusdam odio ducimus mollitia assumenda vitae
                             consectetur quod sequi laborum. Accusamus quis minus molestiae!
                         </p>
-                        <button class="top__btn">
+                        <a href="#popup1" class="top__link">
                             Подробнее
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div class="top__slide">
                     <div class="top__inner4">
                         <div class="top__wrapper-title">
-                            <h1 class="top__title title">
-                                Получить электронную цифровую подпись
-                            </h1>
+                            <h2 class="top__title title">
+                               Цифровая подпись
+                            </h2>
                         </div>
 
                         <p class="top__text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, possimus? Libero ut
                             dolorum numquam, mollitia delectus est excepturi quo architecto.
                         </p>
-                        <button class="top__btn">
+                        <a href="#popup1" class="top__link">
                             Подробнее
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -128,12 +132,6 @@
                             оборудования и услуг</p>
                     </div>
                     <div class="preferenses__item">
-                        <img class="preferenses__item-img" src="images/money.png" alt="">
-                        <h4 class="preferenses__item-title title">Низкая цена</h4>
-                        <p class="preferenses__item-text">Минимальная наценка, так как мы сотрудничаем напрямую с
-                            банками и организациями</p>
-                    </div>
-                    <div class="preferenses__item">
                         <img class="preferenses__item-img" src="images/Consultation.png" alt="">
                         <h4 class="preferenses__item-title title">Бесплатная консультация</h4>
                         <p class="preferenses__item-text">Наши специалисты проконсультируют Вас по любым вопросам</p>
@@ -143,6 +141,12 @@
                         <h4 class="preferenses__item-title title">Работа с регионами</h4>
                         <p class="preferenses__item-text">Работаем не только по городу Саратову, но и по другим регионам
                         </p>
+                    </div>
+                    <div class="preferenses__item">
+                        <img class="preferenses__item-img" src="images/money.png" alt="">
+                        <h4 class="preferenses__item-title title">Низкая цена</h4>
+                        <p class="preferenses__item-text">Минимальная наценка, так как мы сотрудничаем напрямую с
+                            банками и организациями</p>
                     </div>
                 </div>
             </div>
@@ -223,6 +227,16 @@
                             <a href="#popup1" class="card__back-link">Консультация</a>
                         </div>
                     </div>
+                    <div class="card">
+                        <div class="card__front">
+                            <img class="card__front-img" src="images/miniEconom.png" alt="">
+                        </div>
+                        <div class="card__back">
+                            <p class="card__back-title">Решение Ваших задач</p>
+                            <p class="card__back-price">Консалтинг</p>
+                            <a href="#popup1" class="card__back-link">Консультация</a>
+                        </div>
+                    </div>
                 </div>
         </section>
         <section id="kassi" class="direction">
@@ -250,7 +264,7 @@
                         <a href="#popup1" class="direction__item-link">Заказать</a>
                     </div>
                     <div class="direction__item-image">
-                        <img src="images/MTSKASSI.png" alt="" class="direction__item-img">
+                        <img src="images/4.png" alt="" class="direction__item-img">
                     </div>
                 </div>
             </div>
@@ -259,7 +273,7 @@
             <div class="container">
                 <div class="direction__item">
                     <div class="direction__item-image">
-                        <img src="images/RStitle.jpg" alt="" class="direction__item-img">
+                        <img src="images/1.png" alt="" class="direction__item-img">
                     </div>
                     <div class="direction__item-content">
                         <h2 class="direction__item-title">Открытие расчетного счета</h2>
@@ -328,7 +342,7 @@
                         <a href="#popup1" class="direction__item-link">Консультация</a>
                     </div>
                     <div class="direction__item-image">
-                        <img src="images/RegistrIP.png" alt="" class="direction__item-img">
+                        <img src="images/2.png" alt="" class="direction__item-img">
                     </div>
                 </div>
             </div>
@@ -337,7 +351,7 @@
             <div class="container">
                 <div class="direction__item">
                     <div class="direction__item-image">
-                        <img src="images/ECP3.png" alt="" class="direction__item-img">
+                        <img src="images/3.png" alt="" class="direction__item-img">
                     </div>
                     <div class="direction__item-content">
                         <h2 class="direction__item-title">Электронная подпись</h2>
@@ -360,7 +374,7 @@
                 </div>
             </div>
         </section>
-        <footer class="footer">
+        <footer id="footer" class="footer">
             <div class="container">
                 <div class="footer__inner">
                     <a class="logo" href="#">
@@ -402,18 +416,19 @@
                     <p>Вы можете задать интересующий Вас вопрос.</p>
                     <form action="#" name="nameform" method="post">
                         <div class="form__inputs">
-                            <p>Имя <span class="red">*</span><input type="text"></p>
-                            <p>Электронная почта <span class="red">*</span><input type="text"></p>
+                            <p class="popup__name">Имя <span class="red">*</span><br><input class="name" type="text"></p>
+                            <p class="popup__email">Электронная почта <span class="red">*</span><input class="email" type="text"></p>
+                            <p class="popup__phone">Номер телефона <span class="red">*</span><br><input class="tel" type="text"></p>
                         </div>
-                        <p>Ваш вопрос <span class="red">*</span></p>
-                        <textarea name="text"></textarea>
+                        <p class="popup__textarea">Ваш вопрос <span class="red">*</span><textarea name="text"></textarea></p>
                         <div class="button__block">
                             <input type="submit" value="Отправить">
                         </div>
                     </form>
+                    <p class="user__agree">Заполняя форму, вы соглашаетесь<a href="" class="user__agree-link"> на обработку персональных данных</a> </p>
                 </div>
             </div>
-        </div>
+        </div> 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="js/slick.min.js"></script>
         <script src="js/jquery.fancybox.min.js"></script>

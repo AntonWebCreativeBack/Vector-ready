@@ -80,17 +80,19 @@ details{
 }
 .form__inputs{
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 textarea{
-    width: 624px;
-    height: 163px;
+    width: 100%;
+    height: 180px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     padding: 3px 7px;
     resize: none;
 }
 input{
-    width: 300px;
+    width: 68%;
     height: 40px;
     font-size: 20px;
     margin-bottom: 30px;
@@ -103,10 +105,7 @@ input:first-of-type{
 input, textarea{
     border: 1px solid #000000;
 }
-.button__block{
-    display: flex;
-    justify-content: flex-end;
-}
+
 input[type=submit]{
     width: 165px;
     height: 40px;
@@ -115,13 +114,17 @@ input[type=submit]{
     margin-right: 0;
     margin-top: 20px;
     cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .form__btn{
     cursor: pointer;
 }
 .popup__content{
     background-color: #fff;
-    width: 683px;
+    width: 40%;
+    min-height: 450px;
     padding: 30px;
     position: relative;
 }
@@ -175,6 +178,51 @@ input[type=submit]{
     border: 1px solid #bcd0e5;
     border-radius: 4px;
 
+}
+.popup__name{
+    position: absolute;
+    top: 116px;
+    left: 30px;
+}
+.name{
+    width: 300px;
+}
+.popup__email{
+    position: absolute;
+    top: 185px;
+    left: 30px;
+}
+.popup__phone{
+    position: absolute;
+    top: 255px;
+    left: 30px;
+}
+.tel{
+    width: 300px;
+}
+.user__agree{
+    position: absolute;
+    bottom: 70px;
+    left: 30px;
+    font-size: 14px;
+}
+.user__agree-link{
+    font-size: 14px;
+    text-decoration: none;
+    color: #1100ff;
+    cursor: pointer;
+}
+.popup__textarea{
+    position: absolute;
+    bottom: 101px;
+    right: 44px;
+}
+.button__block{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 25px;
+    right: 42px;
 }
 .user__nav-link + .user__nav-link{
     margin-left: 14px;
@@ -230,13 +278,18 @@ input[type=submit]{
     margin-bottom: 45px;
     max-width: 500px;
 }
-.top__btn{
-    display: inline-block;
-    color: #fff;
+.top__link{
     background-color: #1100ff;
+    display: block;
+    color: #fff;
     border-radius: 4px;
-    padding: 15px 44px;
+    padding: 15px 14px;
     border: none;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    width: 240px;
+    text-align: center;
 }
 
 
@@ -255,9 +308,7 @@ input[type=submit]{
     padding-bottom: 90px;
     background: linear-gradient(180deg, rgba(17, 0, 255, 0.0001) 0.33%, rgba(17, 0, 255, 0.629261) 150.67%);
 }
-.preferenses__item{
-    max-width: 240px;
-}
+
 .preferenses__items{
     display: flex;
     flex-wrap: wrap;
@@ -265,7 +316,14 @@ input[type=submit]{
     padding: 8px 16px 0;
     margin-bottom: 60px;
 }
-
+.preferenses__item{
+    max-width: 20%;
+    min-width: 131px;
+}
+.preferenses__item img{
+    width: 25%;
+    
+}
 .preferenses__item-img{
     margin-bottom: 30px;
 }
@@ -303,11 +361,11 @@ input[type=submit]{
     top: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .card-wrapper-two{
-    margin-top: 50px;
+    margin-top: 10px;
     width: 100%;
     height: 100%;
     left: 0;
@@ -322,6 +380,7 @@ input[type=submit]{
     height: 300px;
     position: relative;
     perspective: 1000px;
+    margin: 5px;
 }
 .card__front, .card__back{
     position: absolute;
@@ -393,11 +452,15 @@ input[type=submit]{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.direction__item-image{
+    max-width: 45%;
+}
 .direction__item-image img{
     max-width: 100%;
 }
 .direction__item-content{
-    max-width: 480px;
+    max-width: 45%;
+    padding: 0 30px;
 }
 .direction__item-title{
     font-weight: 700;
@@ -464,7 +527,9 @@ input[type=submit]{
 .slick-track{
     display: flex;
 }
-
+.top__slider{
+    display: block;
+}
 .top__slider .slick-dots{
     display: flex;
     align-items: center;
@@ -495,4 +560,35 @@ input[type=submit]{
 .footer__inner{
     display: flex;
     justify-content: space-around;
+}
+.menu__btn{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    display: none;
+}
+.menu__btn span{
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+}
+.menu__btn::after,
+.menu__btn::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #000;
+    left: 0;
+}
+.menu__btn::after{
+    top: 0;
+}
+.menu__btn::before{
+    bottom: 0;
 }
