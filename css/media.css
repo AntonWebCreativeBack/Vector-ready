@@ -36,7 +36,9 @@
         line-height: 20px;
         max-width: 30%;
     }
-    
+    .map{
+        display: none;
+    }
 }
 @media (max-width: 865px){
     .top__inner,
@@ -99,6 +101,10 @@
         font-size: 0;
         width: 10px;
         height: 10px;
+    }
+    .footer__column-two{
+        display: none;
+    }
 }
 .direction{
     padding: 15px;
@@ -164,21 +170,47 @@
         align-items: center;
         min-width: 100%
     }
+    .rekviz{
+        font-size: 14px;
+    }
+}
+@media (max-width: 560px){
+    .footer__column-one{
+        display: none;
+    }
 }
 @media (max-width: 440px){
     .user__nav-link{
         font-size: 10px;
+    }
+    .preferenses{
+        margin-top: 300px;
     }
     .preferenses__items{
         flex-direction: column;
         align-items: center;
         text-align: center;   
     }
-    /* .direction__item-title{
-        font-size: 15px;
-        line-height: 24;
+    .footer__column-three{
+        display: none;
     }
-    .direction__item-text{
-        font-size: 10px;
-    } */
+    .popup__content{
+        width: 310px;
+        height: 700px;
+    }
+    .popup__name, .popup__email, .popup__phone{
+        left: 5px;
+    }
+    .popup__textarea{
+        right: -60px;
+    }
+    textarea{
+        width: 76%;
+    }
+    .user__agree {
+        bottom: 67px;
+        left: 6px;
+    }
+    .questions {
+        display: none;
 }
