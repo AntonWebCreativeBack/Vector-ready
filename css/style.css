@@ -406,10 +406,10 @@ input[type=submit]{
     flex-direction: column;
 }
 .card:hover .card__front{
-    transform: rotateY(180deg);
+    transform: rotateY(-180deg);
 }
 .card:hover .card__back{
-    transform: rotateY(360deg);
+    transform: rotateY(-360deg);
 }
 .card__front-img{
     background: transparent;
