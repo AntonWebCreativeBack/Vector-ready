@@ -289,7 +289,9 @@ input[type=submit]{
     text-align: center;
 }
 
-
+.preferenses{
+    margin-top: 35px;
+}
 .preferenses__title{
     text-align: center;
     margin: 0 auto 46px;
