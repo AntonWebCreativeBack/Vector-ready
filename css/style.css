@@ -52,6 +52,7 @@ details{
     overflow-y: auto;
     overflow-x: hidden;
 }
+
 .popup1:target{
     opacity: 1;
     visibility: visible;
@@ -92,7 +93,6 @@ textarea{
     resize: none;
 }
 input{
-
     height: 40px;
     font-size: 20px;
     margin-bottom: 30px;
@@ -131,14 +131,13 @@ input[type=submit]{
 }
 .popup__close{
     position: absolute;
-    right: 10px;
-    top: 10px;
-    font-size: 40px;
+    right: 5px;
+    top: 5px;
+    font-size: 50px;
     text-decoration: none;
     transform: rotate(45deg);
     color: #000;
 }
-
 .header__inner{
     display: flex;
     justify-content: space-between;
@@ -150,7 +149,6 @@ input[type=submit]{
 }
 .menu__list{
     display: flex;
-
 }
 .menu__list-item + .menu__list-item{
     margin-left: 24px;
@@ -212,7 +210,7 @@ input[type=submit]{
 .popup__textarea{
     position: absolute;
     bottom: 115px;
-    right: 44px;
+    right: 53px;
 }
 .button__block{
     display: flex;
