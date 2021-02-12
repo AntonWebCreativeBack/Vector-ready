@@ -107,7 +107,7 @@ input, textarea{
 input[type=submit]{
     width: 165px;
     height: 40px;
-    background: #1100ff;
+    background: #27AAE2;
     color: #fff;
     margin-right: 0;
     margin-top: 20px;
@@ -154,7 +154,7 @@ input[type=submit]{
     margin-left: 24px;
 }
 .menu__list-link:hover{
-    color: #1100ff;
+    color: #27AAE2;
 }
 .menu__list-link{
     color: #2F281E;
@@ -204,7 +204,7 @@ input[type=submit]{
 .user__agree-link{
     font-size: 14px;
     text-decoration: none;
-    color: #1100ff;
+    color: #27AAE2;
     cursor: pointer;
 }
 .popup__textarea{
@@ -222,7 +222,7 @@ input[type=submit]{
 .user__nav-link + .user__nav-link{
     margin-left: 14px;
     border-color: transparent;
-    background-color: #1100ff;
+    background-color: #27AAE2;
     color: #fff;
 }
 
@@ -274,7 +274,7 @@ input[type=submit]{
     max-width: 500px;
 }
 .top__link{
-    background-color: #1100ff;
+    background-color: #27AAE2;
     display: block;
     color: #fff;
     border-radius: 4px;
@@ -303,7 +303,7 @@ input[type=submit]{
     border-bottom-left-radius:45%;
     border-bottom-right-radius:45%;
     padding-bottom: 90px;
-    background: linear-gradient(180deg, rgba(17, 0, 255, 0.0001) 0.33%, rgba(17, 0, 255, 0.629261) 150.67%);
+    background: linear-gradient(180deg, rgba(17, 0, 255, 0.0001) 0.33%, rgba(39, 170, 226, 0.629261) 150.67%);
 }
 
 .preferenses__items{
@@ -337,7 +337,7 @@ input[type=submit]{
     padding-top: 15px;
 }
 .preferenses__link{
-    background-color: #1100ff;
+    background-color: #27AAE2;
     display: block;
     color: #fff;
     border-radius: 4px;
@@ -399,7 +399,7 @@ input[type=submit]{
 .card__front{
     z-index: 2;
     background: rgb(2,4,18);
-    background: radial-gradient(circle, rgba(2,4,18,0) 0%, rgba(7,15,235,0.6895133053221288) 100%);
+    background: radial-gradient(circle, rgba(2,4,18,0) 0%, rgba(39, 170, 226,0.6895133053221288) 100%);
     
 }
 .card__back{
@@ -435,7 +435,7 @@ input[type=submit]{
     text-align: center;
 }
 .card__back-link{
-    background-color: #1100ff;
+    background-color: #27AAE2;
     display: block;
     color: #fff;
     border-radius: 4px;
@@ -479,7 +479,7 @@ input[type=submit]{
 }
 .direction__item-bank img{
     width: 150px;
-    border: 1px solid #1100ff;
+    border: 1px solid #27AAE2;
     padding: 5px 6px;
     border-radius: 5px;
 }
@@ -511,7 +511,7 @@ input[type=submit]{
     
 }
 .direction__item-link{
-    background-color: #1100ff;
+    background-color: #27AAE2;
     display: block;
     color: #fff;
     border-radius: 4px;
@@ -555,11 +555,11 @@ input[type=submit]{
     outline: none;
 }
 .top__slider .slick-dots li.slick-active button{
-    background-color: #1100ff;
+    background-color: #27AAE2;
 }
 .footer{
     padding-top: 50px;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(17,0,255,0.5830707282913166) 100%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(39,170,226,0.5830707282913166) 100%, rgba(255,255,255,1) 100%);
 }
 .footer__inner{
     display: flex;
