@@ -4,9 +4,25 @@
 body{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
-    color: #544837;
+    color: #d2d2d2;
     font-size: 16px;
     line-height: 26px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #610d99, #2a4b5e);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 }
 button{
     font-family: 'Ubuntu', sans-serif;
@@ -143,6 +159,7 @@ input[type=submit]{
     justify-content: space-between;
     align-items: center;
     height: 78px;
+    margin-top: 5px;
 }
 .menu{
     margin-left: auto;
@@ -157,7 +174,7 @@ input[type=submit]{
     color: #27AAE2;
 }
 .menu__list-link{
-    color: #2F281E;
+    color: #dadcf6;
     line-height: 28px;
     font-size: 18px;
     font-weight: 400;
@@ -172,7 +189,7 @@ input[type=submit]{
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
-    color: #173a56;
+    color: #dadcf6;
     padding: 11px 23px;
     border: 1px solid #bcd0e5;
     border-radius: 4px;
@@ -274,8 +291,8 @@ input[type=submit]{
     max-width: 500px;
 }
 .top__link{
-    background-color: #27AAE2;
     display: block;
+    position: relative;
     color: #fff;
     border-radius: 4px;
     padding: 15px 14px;
@@ -285,8 +302,28 @@ input[type=submit]{
     text-decoration: none;
     width: 240px;
     text-align: center;
+    border: 2px solid #27AAE2;
+    overflow: hidden;
+    transition: 1s all ease;
 }
-
+.top__link::before{
+    background: #27AAE2;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+.btn1::before{
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+.btn1:hover::before{
+    height: 380%;
+}
 .preferenses{
     margin-top: 35px;
 }
@@ -473,8 +510,8 @@ input[type=submit]{
     margin-bottom: 30px;
 }
 .direction__item-text{
-    font-size: 27px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 24px;
     margin-bottom: 30px;
 }
 .direction__item-bank img{
@@ -482,6 +519,7 @@ input[type=submit]{
     border: 1px solid #27AAE2;
     padding: 5px 6px;
     border-radius: 5px;
+    background-color: #dadcf6;
 }
 
 .direction__item-price{
